@@ -1,0 +1,12 @@
+{
+  "name": "fixus-afip",
+  "version": "1.0.0",
+  "description": "Consulta al padron AFIP (ws_sr_padron_a13) con autenticacion WSAA. Modulo compartido por evaluador-fixus, tablero-fixus y simulador-fixus.",
+  "main": "index.js",
+  "type": "module",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "node-forge": "^1.3.1"
+  }
+}
