@@ -22,6 +22,12 @@
 //       return res.status(500).json({ error: 'Error al consultar AFIP: ' + err.message })
 //     }
 //   }
+//
+// Desde la Etapa 3 este mismo paquete también exporta los helpers de login
+// único (hashPassword, verifyPassword, signSession, verifySession) — ver
+// auth.js para el detalle y el patrón de uso completo.
+
+export * from './auth.js'
 
 import forge from 'node-forge'
 
